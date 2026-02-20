@@ -1,6 +1,6 @@
 ---
 project_name: workspace
-updated_at: 2026-02-20T06:10:33.675669+00:00
+updated_at: 2026-02-20T06:11:18.683264+00:00
 status: in_progress
 ---
 
@@ -352,7 +352,7 @@ The plan store is the source of truth for planning and execution.
 ## Requirements
 
 - [x] Product name (working):** Research Infographic Studio
-- [ ] an **AI-generated infographic** (visual summary),
+- [x] an **AI-generated infographic** (visual summary),
 - [ ] an **explanatory article** (structured narrative),
 - [ ] supporting sources** (citations with links/metadata).
 - [ ] Reduce the time to go from “question” → “shareable, cited infographic + article”.
