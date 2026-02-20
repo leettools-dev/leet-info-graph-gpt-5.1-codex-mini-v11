@@ -45,4 +45,6 @@ Thumbs.db
 .env
 .env.local
 *.log
+logs/
+pids/
 .leet/
