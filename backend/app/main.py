@@ -43,6 +43,7 @@ def build_demo_research_result() -> ResearchResult:
             publish_date=datetime(2024, 10, 2, tzinfo=timezone.utc),
             accessed_at=now,
             excerpt="Guidelines for pairing narrative structure with visual cues to support retention.",
+            reliability_notes="Edited by senior infographic designers and updated monthly",
         ),
         SourceMetadata(
             source_id="source-3",
