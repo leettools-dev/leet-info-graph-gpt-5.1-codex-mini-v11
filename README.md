@@ -16,9 +16,7 @@ Build a full-stack web application where users sign in with Google, submit resea
 
 ## Features
 
-- Dockerized architecture with FastAPI backend and Vite-powered React frontend, orchestrated via docker-compose for easy local or CI deployment.
-- Quick start scripts (start.sh/stop.sh) that manage logs and PID files, plus documentation of required env vars for Google OAuth, OpenAI, and ports.
-- Core schema definitions for articles, infographics, sources, and provenance ensure research results are structured for export and traceability.
+- Deterministic demo endpoint `/results/demo` returns an article, infographic spec, sources, and provenance so the system can showcase shareable, cited outputs instantly.
 
 ## Getting Started
 
@@ -52,10 +50,13 @@ See `.leet/plans/` for the current development status.
 
 ## Testing
 
+### Testing
+
 ```bash
-pytest backend/tests
-npm --prefix frontend test
+cd backend
+python -m pytest
 ```
+
 # Test instructions will be added
 ```
 
